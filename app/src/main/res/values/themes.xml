@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ToDoList" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@android:color/holo_orange_dark</item>
+        <item name="colorPrimaryDark">@android:color/holo_orange_dark</item>
+        <item name="colorAccent">@android:color/white</item>
+    </style>
+
+    <style name = "DialogStyle" parent = "Theme.Design.BottomSheetDialog">
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowSoftInputMode">adjustResize</item>
+    </style>
+
+    <style name="AlertDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">#808080</item> <!-- Set the color to grey, adjust as needed -->
+    </style>
+
+</resources>

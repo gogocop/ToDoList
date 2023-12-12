@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme for night mode. -->
+    <style name="Base.Theme.ToDoList" parent="Theme.Material3.DayNight">
+        <!-- Customize your dark theme here. -->
+        <item name="colorPrimary">@color/design_default_color_primary_dark</item>
+    </style>
+</resources>
+
+

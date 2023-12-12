@@ -1,0 +1,38 @@
+<!-- Inside res/layout/new_task.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/newTaskText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tarea"
+        android:inputType="textCapSentences|textAutoCorrect"/>
+
+    <EditText
+        android:id="@+id/newDescriptionText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Descripcion"
+        android:inputType="textCapSentences|textAutoCorrect"/>
+
+    <EditText
+        android:id="@+id/newTypeText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tipo"
+        android:inputType="textCapSentences|textAutoCorrect"/>
+
+    <Button
+        android:id="@+id/newTaskButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Guardar"/>
+
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+<!-- activity_task_details.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TaskDetailsActivity">
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tareas"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/descriptionTextView"
+        android:layout_below="@id/titleTextView"
+        android:layout_marginTop="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Task Description"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/typeTextView"
+        android:layout_below="@id/descriptionTextView"
+        android:layout_marginTop="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Task Type"
+        android:textSize="16sp" />
+
+    <CheckBox
+        android:id="@+id/statusCheckBox"
+        android:layout_below="@id/typeTextView"
+        android:layout_marginTop="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Task Status" />
+
+</RelativeLayout>
